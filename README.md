@@ -51,6 +51,7 @@ https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/bf301c40-838b-4af
   <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/0d7abb86-29c5-493f-b764-49a5834d772b">
 
 </p>
+
 ### Shipping page
 <p align="left">
   <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/61379cb7-ea82-4663-aab4-23a2d46ae6d1">
