@@ -71,7 +71,7 @@ https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/bf301c40-838b-4af
 ## To Run This Project
 1. clone this project on your local machine,
 ```
-git clone https://github.com/ruhulaminparvez/eCommerce.git
+git clone https://github.com/Sha-Bytes/Django-Ecommerce.git
 ```
 2. create a virtual environment inside eCommerce folder,
 ```
@@ -91,7 +91,7 @@ python manage.py runserver
 ```
 
 ## Deployed
-👉 Live Demo: [e-Commerce](https://ruhulaminparvez.pythonanywhere.com/)
+👉 Live Demo: 
 
 ## Bugs
-> *If there any known bugs found or run into any issues please let me know. Please enjoy and feel free to share your opinion, constructive criticism, or comments about my work. Email: 👉 ruhulaminparvez007@gmail.com 😊 Thank you!*
+> *If there any known bugs found or run into any issues please let me know. Please enjoy and feel free to share your opinion, constructive criticism, or comments about my work. Email: 👉 shajinabi10@gmail.com 😊 Thank you!*
