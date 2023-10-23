@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+	{% if messages %}
+    {% for message in messages%}
+    <script>alert("{{ message }}");
+</script>
+    {% endfor %}
+    {% endif %}
+
+</head>
+<body>
+<div class="pt-5 pb-5 mt-0 align-items-center d-flex bg-dark" style="min-height: 100vh; background-size: cover; background-image: url(https://wallpaperaccess.com/full/2086892.jpg);background-position: center;">
+        <div class="container-fluid" style="padding-top:370px;">
+          <div class="row  justify-content-center align-items-center d-flex-row h-100" >
+            <div class="col-12 col-md-4 col-md-3   h-50 " >
+              <div class="card shadow" style="border-radius:18px;background-color:#FFFFFF;">
+                <div class="card-body mx-auto">
+<h3 style="padding-right:320px;text-align:left;color:black;">PAYMENT</h3><br><br>
+<h4 style="text-align:center;color:black;"> Total Amount: ₹2799</h4><br><br>
+                    <center><form action="{% url 'charge' %}" method="post">
+                        {% csrf_token %}
+                    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                            data-key="{{ key }}"
+                            data-description="Payment Gateway"
+                            data-amount="3542"
+                            data-locale="auto"></script>
+                        </form></center>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout</title>
+    {% load mathfilters %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+<div class="vh-100 bg-image"  style="background-image: url('https://wallpaperaccess.com/full/2086940.jpg');background-size:cover;">
+  <div class="mask d-flex align-items-center h-100 gradient-custom-4">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-left align-items-center h-100">
+        <div class="col-md-6 offset-md-8 col-lg-7 col-xl-6">
+          <div class="card" style="border-radius: 15px;background-color:#90EE90">
+            <div class="card-body p-2">
+                {% for key,value in request.session.cart.items %}
+                {% endfor %}
+                <form method="post">
+                    {% csrf_token %}
+                    <center><h4 style="color:#008000">Add Shipping details</h4></center><br>
+                    <div class="form-group">
+                        <label>First name and Last name</label>
+                        <input type="text" name="name" placeholder="Name" class="form-control">
+                        </div>
+                    <div class="form-group">
+                        <label>Phone No</label>
+                        <input type="text" name="phone" placeholder="Phone No" class="form-control">
+                        </div>
+                    <div class="form-group">
+                        <label>Pincode</label>
+                        <input type="text" name="pincode" placeholder="Pincode" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>House No</label>
+                        <input type="text" name="houseno" placeholder="House No" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Street</label>
+                        <input type="text" name="street" placeholder="Street" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Landmark</label>
+                        <input type="text" name="landmark" placeholder="Landmark" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>City</label>
+                        <input type="text" name="city" placeholder="City" class=" form-control">
+                    </div>
+                    <center><button type="submit" class="btn btn-inline" style="background-color:#DE3722;color:white;width:50%;">Make Payment</button></center>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+   {% load crispy_forms_tags %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style3.css' %}">
+
+   {% if messages %}
+   {% for message in messages %}
+   <script>
+      alert("{{ message }}");
+   </script>
+   {% endfor %}
+   {% endif %}
+    </style>
+</head>
+<body>
+<form method="post">
+    <div class="container contact">
+   <div class="row">
+      <div class="col-md-3">
+         <div class="contact-info">
+            <center><img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/></center>
+            <h2>Share your Opinion</h2><br>
+            <h4>We would love to hear from you !</h4>
+         </div>
+      </div>
+      <div class="col-md-9">
+         <div class="contact-form">
+   {% csrf_token %}
+    {{ form|crispy }}
+         <center><button type="submit" class="btn btn-dark" style="background-color:green;"><a href="{% url 'home'%}" style="color:white;">Home</a></button>
+   <button type="submit" class="btn btn-primary">Submit</button></center>
+                   </div>
+         </div>
+      </div>
+   </div>
+
+    </form>
+</div>
+</body>
+</html>
