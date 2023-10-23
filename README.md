@@ -43,7 +43,6 @@ https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/bf301c40-838b-4af
 ### Game Preview
 <p align="left">
   <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/5875fe8b-af6e-4198-93d5-9dbdc3a6237e">
-  <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/5875fe8b-af6e-4198-93d5-9dbdc3a6237e">
   <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/70679c29-4ea4-4d7d-aa72-53d21df97bc5">
   <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/da930b1b-ad1d-4edf-b5fc-4af58652b5d3">
   <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/a76f47c1-1dc4-493e-bb0e-bd0ea94f89f3">
