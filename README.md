@@ -17,7 +17,8 @@ This is a fully functional eCommerce website for purchase Games with a beautiful
 
 ## Demonstration
 <p align="left">
-  <img width="780" src="preview/Untitled video - Made with Clipchamp.mp4">
+  <img width="780" src="[preview/Untitled video - Made with Clipchamp.mp4](https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/4f5a851c-1cc0-4166-bac1-78df6e7562b8
+)">
 </p>
 
 ## Preview
