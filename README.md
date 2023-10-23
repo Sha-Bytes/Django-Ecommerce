@@ -15,27 +15,58 @@ This is a fully functional eCommerce website for purchase Games with a beautiful
 4. JavaScript (Client-Side)
 5. Stripe Integration (Payment Method)
 
+
+
 ## Demonstration
-<p align="left">
-  <img width="780" src="[preview/Untitled video - Made with Clipchamp.mp4](https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/4f5a851c-1cc0-4166-bac1-78df6e7562b8
-)">
-</p>
+https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/bf301c40-838b-4afc-852f-f4f4eb80e517
+
+
 
 ## Preview
-#### Store
+#### Homepage
 <p align="left">
-  <img width="780" src="preview/stores.png">
+  <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/a11e5843-05ec-4c90-b999-148a9c4cab7b">
 </p>
 
-#### Cart
+#### Login
 <p align="left">
-  <img width="780" src="preview/cart.png">
+  <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/ce26c694-7450-4f65-aeff-82c5f3ba3d71">
 </p>
 
-#### Checkout
+
+#### Sign-up
 <p align="left">
-  <img width="780" src="preview/check-out.png">
+  <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/8c70e2bb-f75a-48b1-8324-fdcaa4658459">
 </p>
+
+
+### Game Preview
+<p align="left">
+  <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/5875fe8b-af6e-4198-93d5-9dbdc3a6237e">
+  <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/5875fe8b-af6e-4198-93d5-9dbdc3a6237e">
+  <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/70679c29-4ea4-4d7d-aa72-53d21df97bc5">
+  <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/da930b1b-ad1d-4edf-b5fc-4af58652b5d3">
+  <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/a76f47c1-1dc4-493e-bb0e-bd0ea94f89f3">
+  <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/35b17cd3-1e13-488b-a5cb-48b3f8986247">
+  <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/6434749a-2782-4388-a589-699abe8dd265">
+  <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/0d7abb86-29c5-493f-b764-49a5834d772b">
+
+</p>
+### Shipping page
+<p align="left">
+  <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/61379cb7-ea82-4663-aab4-23a2d46ae6d1">
+
+</p>
+
+
+### payment page
+<p align="left">
+  <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/bae03702-6a00-4fd1-a585-6552c36737a7">
+  <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/34389059-3689-4b37-af1a-d9b960e25dd3">
+  <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/4b9ce7a3-363b-42a2-99d4-12d59edff9fe">
+
+</p>
+
 
 ## To Run This Project
 1. clone this project on your local machine,
