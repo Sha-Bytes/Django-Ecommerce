@@ -85,6 +85,25 @@ virtualenv venv
 ```
 pip install -r requirements.txt
 ```
+
+5. make some updations on settings.py
+```
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'myapp',
+    'crispy_forms',
+    'mathfilters',
+    'crispy_bootstrap4',
+]
+```
+
+
+   
 5. run project on your local machine,
 ```
 python manage.py runserver
