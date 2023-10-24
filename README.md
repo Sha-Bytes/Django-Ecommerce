@@ -1,5 +1,7 @@
-# E-Commerce🛒
-This is a fully functional eCommerce website for purchase Games with a beautiful user interface and backend functionalities.
+# 🛒E-Commerce
+<b>This is a fully functional eCommerce website for purchase Games with a beautiful user interface and backend functionalities.</b>
+
+<br>
 
 ## Features
 - User and guest checkout capabilities.
@@ -8,37 +10,47 @@ This is a fully functional eCommerce website for purchase Games with a beautiful
 - After complete basic checkout with a logged-in user.
 - Add in the ability for users to checkout as a guest using cookies.
 
-## Technologies
-1. Django (Backend)
-2. Bootstrap (Frontend)
-3. CSS (Frontend)
-4. JavaScript (Client-Side)
-5. Stripe Integration (Payment Method)
+<br>
+
+## Roadmap & Technologies 
+
+| Status | Item | info | 
+| --- | --- | --- |
+| ✅ | **Django** | For `backend logic` |
+| ✅ | **HTML** | For `frontend logic` |
+| ✅ | **CSS** | For `frontend logic` |
+| ✅ | **Bootstrap** | For `frontend logic` |
+| ✅ | **JavaScript** | For `client-side logic` |
+| ✅ | **Stripe** | For `Payment processor` via [Python Stripe Library](https://pypi.org/project/python-stripe/) |
+
+<br>
 
 
 
 ## Demonstration
 https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/bf301c40-838b-4afc-852f-f4f4eb80e517
 
-
+<br>
 
 ## Preview
+
 #### Homepage
 <p align="left">
   <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/a11e5843-05ec-4c90-b999-148a9c4cab7b">
 </p>
+<br>
 
 #### Login
 <p align="left">
   <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/ce26c694-7450-4f65-aeff-82c5f3ba3d71">
 </p>
-
+<br>
 
 #### Sign-up
 <p align="left">
   <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/8c70e2bb-f75a-48b1-8324-fdcaa4658459">
 </p>
-
+<br>
 
 ### Game Preview
 <p align="left">
@@ -51,13 +63,14 @@ https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/bf301c40-838b-4af
   <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/0d7abb86-29c5-493f-b764-49a5834d772b">
 
 </p>
+<br>
 
 ### Shipping page
 <p align="left">
   <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/61379cb7-ea82-4663-aab4-23a2d46ae6d1">
 
 </p>
-
+<br>
 
 ### payment page
 <p align="left">
@@ -66,7 +79,7 @@ https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/bf301c40-838b-4af
   <img width="780" src="https://github.com/Sha-Bytes/Django-Ecommerce/assets/107455405/4b9ce7a3-363b-42a2-99d4-12d59edff9fe">
 
 </p>
-
+<br>
 
 ## To Run This Project
 1. clone this project on your local machine,
@@ -114,16 +127,16 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STRIPE_SECRET_KEY = "" # insert your own stripe secret key
 STRIPE_PUBLISHABLE_KEY = "" # insert your own stripe public key
 ```
-
-
    
 5. run project on your local machine,
 ```
 python manage.py runserver
 ```
+Visit  `http://localhost:8000` in your browser. The app should be up & running.
 
-## Deployed
-👉 Live Demo: 
+<br>
 
-## Bugs
-> *If there any known bugs found or run into any issues please let me know. Please enjoy and feel free to share your opinion, constructive criticism, or comments about my work. Email: 👉 shajinabi10@gmail.com 😊 Thank you!*
+## Credits & Links
+
+- [Django Framework](https://www.djangoproject.com/) - The official website
+- [Stripe Dev Tools](https://stripe.com/docs/development) - official docs
