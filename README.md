@@ -128,7 +128,7 @@ STRIPE_SECRET_KEY = "" # insert your own stripe secret key
 STRIPE_PUBLISHABLE_KEY = "" # insert your own stripe public key
 ```
    
-5. run project on your local machine,
+6. run project on your local machine,
 ```
 python manage.py runserver
 ```
